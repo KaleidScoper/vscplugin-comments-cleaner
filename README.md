@@ -1,2 +1,15 @@
-# vscplugin-comments-cleaner
+# VScode注释清除器
+
 VS Code 注释&amp;空白行清除器（支持多语言）
+
+## 功能
+
+- 开发中，暂无
+
+## 环境要求
+
+- 暂无
+
+## 使用方法
+
+- 暂无
