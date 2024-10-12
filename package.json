@@ -1,8 +1,10 @@
 {
   "name": "vscplugin-comments-cleaner",
-  "displayName": "vscplugin-comments-cleaner",
+  "displayName": "Comments cleaner 注释清除器",
   "description": "自用VScode注释&空白行清除器，支持多语言。",
   "version": "0.0.1",
+  "publisher": "Kaleid Scoper",
+  "icon": "icon.png",
   "engines": {
     "vscode": "^1.94.0"
   },
