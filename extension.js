@@ -11,11 +11,7 @@ const vscode = require('vscode');
 function activate(context) {
 	console.log('Congratulations, your extension "vscplugin-comments-cleaner" is now active!');
 
-	// The command has been defined in the package.json file
-	// Now provide the implementation of the command with  registerCommand
-	// The commandId parameter must match the command field in package.json
 	const disposable = vscode.commands.registerCommand('vscplugin-comments-cleaner.helloWorld', function () {
-		// 输入在package.json中命名的指令后，指令会启动此处的代码。
 		vscode.window.showInformationMessage('Hello World from vscplugin-comments-cleaner!');
 	});
 
