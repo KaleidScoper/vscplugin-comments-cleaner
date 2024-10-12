@@ -14,10 +14,16 @@
   "activationEvents": [],
   "main": "./extension.js",
   "contributes": {
-    "commands": [{
-      "command": "vscplugin-comments-cleaner.helloWorld",
-      "title": "Hello World"
-    }]
+    "commands": [
+      {
+        "command": "vscplugin-comments-cleaner.helloWorld",
+        "title": "Hello World"
+      },
+      {
+        "command": "vscplugin-comments-cleaner.commentsclear",
+        "title": "Comments Clear"
+      }
+    ]
   },
   "scripts": {
     "lint": "eslint .",
